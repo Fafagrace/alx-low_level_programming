@@ -1,16 +1,17 @@
 #include <stdio.h>
 
 /**
- * main -acts as the main function
- * Return: end with 0
+ * main - main function
+ *
+ * Return: end with zero
  */
 int main(void)
 {
-	char i; 
+	char i;
 
 	for (i = 'a' ; i <= 'z' ; i++)
 		if (i != 'q' && i != 'e')
-		putchar(i);
+			putchar(i);
 	putchar('\n');
 	return (0);
 }
